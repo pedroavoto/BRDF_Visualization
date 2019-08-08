@@ -1,0 +1,13 @@
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\Engine.dll.config
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\Engine.dll
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\Engine.pdb
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\SharpDX.D3DCompiler.dll
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\SharpDX.Direct3D11.dll
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\SharpDX.dll
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\SharpDX.DXGI.dll
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\SharpDX.xml
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\SharpDX.D3DCompiler.xml
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\SharpDX.Direct3D11.xml
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\bin\x64\Release\SharpDX.DXGI.xml
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\obj\x64\Release\Engine.dll
+D:\Gustavo\Programacao\CSharp\SharpDX\ProjectIglooSharp\Engine\obj\x64\Release\Engine.pdb
