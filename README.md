@@ -10,7 +10,7 @@ The application (BRDF) used DirectX 11 as the graphic API (SharpDX wrapper of Di
 
 ### PIPELINE GRAPHIC
 
-The rendering pipeline main goal is to take a group of 3D object descriptions and convert them into an applicable image format for visualization in the output window of an application. The below figure 01 shows a full pipeline graphic used to implement this project in particular.
+The rendering pipeline main goal is to take a group of 3D object descriptions and convert them into an applicable image format for visualization in the output window of an application. The figure 01 below shows a full pipeline graphic used to implement this project in particular.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49216807/62652498-62388f80-b910-11e9-8f40-42fe9adc7029.png">
