@@ -22,16 +22,16 @@ The top menu bar has five controllers as mentioned above: Direction of the light
 
 ### GRAPHIC PIPELINE
 
-The rendering pipeline main goal is to take a group of 3D object descriptions and convert them into an applicable image format for visualization in the output window of an application. The figure 01 below shows a full pipeline graphic used to implement this project in particular.
+The rendering pipeline main goal is to take a group of 3D object descriptions and convert them into an applicable image format for visualization in the output window of an application. The figure 01 below shows a full graphic pipeline used to implement this project in particular.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49216807/62652498-62388f80-b910-11e9-8f40-42fe9adc7029.png">
 </p>
 <p align="center">
-  Figure 01 - Pipeline Graphic BRDF Visualization Application
+  Figure 01 - Graphic Pipeline BRDF Visualization Application
 </p>
 
-Pipeline stages are represented in different colors (green and blue). Blue gives us the programmable stages and green provides the fixed-function stages. The pipeline graphic entry point is the input assembler stage. This stage reads the input data from resources and then assembles vertices for later use. This lets us leverage multiple vertex buffers and allows instanced rendering to be used. The connectivity of the vertices is also determined according to the the input resources and the rendering configuration. Both the primitive connectivity and the assembled vertices data are transferred down to the pipeline. 
+Pipeline stages are represented in different colors (green and blue). Blue gives us the programmable stages and green provides the fixed-function stages. The graphic pipeline entry point is the input assembler stage. This stage reads the input data from resources and then assembles vertices for later use. This lets us leverage multiple vertex buffers and allows instanced rendering to be used. The connectivity of the vertices is also determined according to the the input resources and the rendering configuration. Both the primitive connectivity and the assembled vertices data are transferred down to the pipeline. 
 
 The vertex shader stage obtains and interprets the assembled vertex data from the input assembler stage to process a single vertex at a time. This is the first programmable stage in the pipeline, applying the current vertex shader program to each input vertex. The main job of the vertex shader is to project the vertex position into the clip space. Generally, operations that have to be executed on each vertex of the input model should be run in the vertex shader. 
 
