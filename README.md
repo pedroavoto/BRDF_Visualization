@@ -63,7 +63,7 @@ Lambertian reflection is often used as a model for diffuse reflection, and becau
   Figure 03 - Cosine Law
 </p>
 
-As I mention at the pipeline graphic section, the BRDF models will be implement at the pixel shader stage to evaluate with color each pixel will be “painted”. The HLSL (GPU code) reads as follows:
+As I mention at the graphic pipeline section, the BRDF models will be implement at the pixel shader stage to evaluate with color each pixel will be “painted”. The HLSL (GPU code) reads as follows:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49216807/62652969-69ac6880-b911-11e9-911a-de17378b6d5c.png">
@@ -140,7 +140,7 @@ The Oren-Nayar diffuse model can be viewed as a generalization of Lambert’s la
   Figure 10 - Standard formula of Oren-Nayar Model
 </p>
 
-According to the pipeline graphic section, the BRDF models will be implement at the pixel shader stage to evaluate with color each pixel will be “painted”. The HLSL (GPU code) reads as follows:
+According to the graphic pipeline section, the BRDF models will be implement at the pixel shader stage to evaluate with color each pixel will be “painted”. The HLSL (GPU code) reads as follows:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49216807/62653420-6665ac80-b912-11e9-9f4c-e2a155125c2c.png">
