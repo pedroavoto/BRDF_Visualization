@@ -20,7 +20,7 @@ To enable the menu bar on top left corner of the application window, user shall 
 
 The top menu bar has five controllers as mentioned above: Direction of the light, BRDF Models (Diffuse and Specular Models), Roughness, and Color of the object. The button “LightDirection” is responsible to move the spotlight of the scene in different angles. The user is encouraged to play around this tool and see how the ray of the light hit the surface of the object. The second button in sequence is the “Roughness”, in which combined to Oren Nayar diffuse model and Cook Torrance specular model, it can modify the roughness of the object making it shine (0.01) or rough (1.0). As mentioned above, the next two buttons are responsible to select the diffuse and specular models. Once again, only the Oren Nayar diffuse model combined with Cook Torrance specular model enable the “Roughness” controller. Finally, the “Color Object” controller in which users can select different colors by using RGB system. Unfortunately, “Alpha” parameter inside of “Color Object” does not have functionality and it will be implemented in further versions of the BRDF application.   
 
-### PIPELINE GRAPHIC
+### Graphic Pipeline
 
 The rendering pipeline main goal is to take a group of 3D object descriptions and convert them into an applicable image format for visualization in the output window of an application. The figure 01 below shows a full pipeline graphic used to implement this project in particular.
 
